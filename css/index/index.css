@@ -1,0 +1,57 @@
+* {
+  color: #333333;
+}
+.loading{
+  position : absolute;
+  width :100vw;
+  height : 100vh;
+  background-color : white;
+  align-items :center;
+  display :flex;
+  justify-content : center;
+}
+#load_pic{
+  display :relative;
+  background-image : url("https://i.screenshot.net/6dr1kf1");
+  width:100px;
+  height:100px;
+}
+#box {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: #F9D53D;
+  align-items: center;
+  justify-content: center;
+}
+#box #wrapper {
+  display: relative;
+  text-align: center;
+}
+#box #wrapper:hover{
+  transition :0.5s;
+  opacity: 0.3;
+}
+#box #wrapper img {
+  cursor: pointer;
+  width: 20vw;
+}
+#box #enter{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  display: none;
+  position: absolute;
+}
+#box #enter a {
+  font-size: 24px;
+}
+#box #enter a:hover{
+  -webkit-text-stroke : 0.4px white;
+  font-size: 30px;
+  transition : 0.5s;
+}
+
+/*# sourceMappingURL=index.css.map */
+* {
+  color: #333333;
+}
